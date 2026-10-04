@@ -23,12 +23,11 @@ export default function Features() {
     },
   ];
   return (
-    <section className="max-w-7xl mx-auto px-6 py-16">
-      {/*heading lga dete hai */}
+    <section id="features" className="max-w-7xl mx-auto px-6 py-16">
       <h2 className="text-3xl font-bold text-center text-gray-900">
         Our Features
       </h2>
-      {/* mtlb dynamic card bnate hai ak bnayenge  */}
+
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {features.map((item, index) => (
           <div

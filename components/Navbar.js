@@ -29,13 +29,11 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-white sticky top-0 z-50">
       <div className=" px-6 py-4 flex items-center justify-between">
-        {/* left side mai logo + project name */}
         <div className="flex item-center gap-2">
           <Image src="/logo1.jpg" alt="MedCore Logo" width={40} height={40} />
           <span className="text-2xl font-bold text-teal-700">Medcore</span>
         </div>
 
-        {/* center mai link ko add kr dete hai */}
         <div className="hidden md:flex items-center gap-8 text-gray-700 font-medium">
           <Link
             href="/"
@@ -44,7 +42,7 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            href="/features"
+            href="/#features"
             className="hover:text-teal-700 hover:underline font-bold"
           >
             Features
@@ -62,7 +60,7 @@ export default function Navbar() {
             About
           </Link>
           <Link
-            href="/contects"
+            href="/contact"
             className="hover:text-teal-700 hover:underline font-bold"
           >
             Contact
