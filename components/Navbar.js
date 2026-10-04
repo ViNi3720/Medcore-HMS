@@ -68,8 +68,6 @@ export default function Navbar() {
             Contact
           </Link>
         </div>
-
-        {/*login aur appointment wala kam kr lete hai */}
         <div className="flex items-center gap-3">
           <div>
             {user ? (
